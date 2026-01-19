@@ -7,22 +7,48 @@
   --color-grey-950: hsl(200, 15%, 8%);
   --color-grey-400: hsl(0, 0%, 50%);
   --color-grey-50: hsl(0, 0%, 99%);
-
+  --color-white: hsl(0, 0%, 100%);
   --font-nunito: var(--font-nunito-sans), sans-serif;
+
+  /* Semantic Colors - These point to the CSS variables below */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-element: var(--element);
+  --color-input: var(--input);
+  --color-hover: var(--hover);
+  --color-skeleton: var(--skeleton);
+  --font-sans: var(--font-nunito-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
+  /* Light Mode Defaults */
   --background: var(--color-grey-50);
   --foreground: var(--color-grey-950);
+  --element: var(--color-white);
+  --input: var(--color-grey-400);
+  --hover: var(--color-gray-200);
+  --skeleton: hsl(0, 0%, 82%);
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
 }
 
 .dark {
+  /* Dark Mode Overrides */
   --background: var(--color-blue-950);
   --foreground: var(--color-white);
+  --element: var(--color-blue-900);
+  --input: var(--color-blue-900);
+  --hover: var(--color-gray-800);
+  --skeleton: var(--color-blue-900);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-nunito);
 }

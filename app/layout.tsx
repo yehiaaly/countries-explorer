@@ -7,7 +7,7 @@ import ThemeProvider from "./ThemeProvider";
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
   subsets: ["latin"],
-  weight: ["300", "600", "900"],
+  weight: ["300", "600", "800"],
 });
 
 export const metadata: Metadata = {
