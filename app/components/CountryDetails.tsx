@@ -88,13 +88,12 @@ const CountryDetails = ({ country }: { country: Country }) => {
               {borders.map(
                 (border) =>
                   border !== "ISR" && (
-                    <Link key={border} href={`/${border.toLowerCase()}`}>
-                      <button
-                        key={border}
-                        className="px-4 cursor-pointer py-1 bg-element shadow-sm rounded-sm text-sm border hover:bg-hover hover:scale-105 transition-all duration-300 border-gray-100 dark:border-none"
-                      >
-                        {border}
-                      </button>
+                    <Link
+                      key={border}
+                      href={`/${border.toLowerCase()}`}
+                      className="px-4 cursor-pointer py-1 bg-element shadow-sm rounded-sm text-sm border hover:bg-hover hover:scale-105 transition-all duration-300 border-gray-100 dark:border-none"
+                    >
+                      {border}
                     </Link>
                   ),
               )}

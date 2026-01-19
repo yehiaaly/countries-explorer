@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between px-8 items-center h-28 shadow-lg bg-element text-foreground">
+      <header className="flex justify-between px-8 items-center h-28 shadow-lg bg-element text-foreground">
         <Link href={`/`}>
           <h1 className="font-extrabold cursor-pointer hover:bg-hover transition-all duration-300 p-2 rounded-lg">
             Where in the world?
@@ -45,7 +45,7 @@ const Navbar = () => {
             </span>
           )}
         </button>
-      </div>
+      </header>
     </>
   );
 };

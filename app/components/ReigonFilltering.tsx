@@ -14,8 +14,9 @@ const ReigonFilltering = ({ setSelectedRegion, selectedRegion }: type) => {
         onChange={(e) => setSelectedRegion(e.target.value)}
         className="bg-element p-4 pr-24 rounded-lg shadow-md outline-none focus:ring-2 focus:ring-foreground/30 appearance-none cursor-pointer text-sm font-semibold transition-all"
         value={selectedRegion}
+        aria-label="Filter by Region"
       >
-        <option value="">Fillter By Region</option>
+        <option value="">Filter by Region</option>
         {regions.map((region) => (
           <option key={region} value={region}>
             {region}
