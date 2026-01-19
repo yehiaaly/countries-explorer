@@ -24,6 +24,7 @@ const Navbar = () => {
           </h1>
         </Link>
         <button
+          aria-label="Toggle theme"
           onClick={() => setTheme(resolvedTheme === "light" ? "dark" : "light")}
           className="cursor-pointer "
         >
