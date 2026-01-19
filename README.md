@@ -4,8 +4,7 @@
 
 ## 🔗 Links
 
-- <a href="https://your-project.pages.dev"><img src="https://img.shields.io/badge/Live_Demo-Open_App-2EA44F?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
-- **Frontend Mentor Solution:** [View Solution](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+<a href="https://countries-explorer.pages.dev/"><img src="https://img.shields.io/badge/Live_Demo-Open_App-2EA44F?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
 
 ## 🌍 Overview
 
