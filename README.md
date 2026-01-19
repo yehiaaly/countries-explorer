@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# REST Countries API with Color Theme Switcher
 
-## Getting Started
+![Design Preview](./public/screenshot.png)
 
-First, run the development server:
+## 🔗 Links
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- <a href="https://your-project.pages.dev"><img src="https://img.shields.io/badge/Live_Demo-Open_App-2EA44F?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
+- **Frontend Mentor Solution:** [View Solution](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌍 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a comprehensive **Countries Explorer** application built with **Next.js 15**, **React 19**, and **Tailwind CSS v4**. It allows users to browse information about every country in the world, integrating with the [REST Countries API](https://restcountries.com/).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Learn More
+The project focuses on a premium user experience, featuring dynamic themes (Dark/Light), responsive design, and robust search/filtering capabilities.
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **See all countries** from the API on the homepage
+- **Search for a country** using an `input` field
+- **Filter countries** by region
+- **Click on a country** to see more detailed information on a separate page
+- **Toggle** the color scheme between light and dark mode
+- **Responsive Design** optimized for Mobile, Tablet, and Desktop
+- **SEO Optimized** with dynamic metadata and Open Graph tags
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+- **Framework:** [Next.js 16 (App Router)](https://nextjs.org/)
+- **Library:** [React 19](https://react.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Typography:** Nunito Sans (via `next/font`)
+- **State Management:** React Hooks
+- **Data Fetching:** Server Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+
+Make sure you have Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/rest-countries-api.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd rest-countries-api-with-color-theme-switcher
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+## 📄 License
+
+This project is open source and available under the information provided in the repository.
