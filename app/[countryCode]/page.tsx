@@ -2,6 +2,8 @@ import BackButton from "../components/BackButton";
 import CountryDetails from "../components/CountryDetails";
 import { getCountryByCode } from "../lib/api";
 
+export const runtime = "edge";
+
 type Props = {
   params: {
     countryCode: string;
